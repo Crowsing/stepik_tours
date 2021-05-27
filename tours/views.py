@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from tours.parsing_data_for_departure import pars as departure_pars
-from tours.parsing_data_for_tour import pars as tour_pars
-from tours.parsing_data_for_random_6_hotels import pars as random_pars
+from tours.parsing_data.parsing_data_for_departure import pars as departure_pars
+from tours.parsing_data.parsing_data_for_tour import pars as tour_pars
+from tours.parsing_data.parsing_data_for_random_6_hotels import pars as random_pars
 
 
 def main_view(request):

@@ -8,7 +8,7 @@
       <p class="lead">{{ data.country }} {{ departure_ru }} {{ data.nights }} ночей</p>
       <img src="{{ data.picture }}" class="w-75" alt="">
       <p class="my-4 w-75">{{ data.description }}</p>
-      <a href="#" class="btn btn-success btn-lg">Купить тур за {{ data.price }}</a>
+      <a href="{% url 'main_view' %}" class="btn btn-success btn-lg">Купить тур за {{ data.price }}</a>
     </section>
   </main>
 
